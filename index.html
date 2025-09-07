@@ -16,11 +16,27 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-           
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold text-gradient" href="index.html">정민욱</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                </ul>
+                </div>
+            </div>
+            </nav>
             <!-- Header-->
             <header class="py-5">
                 <div class="container px-5 pb-5">
@@ -28,17 +44,18 @@
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Java &middot; Development &middot; Database</div></div>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4 my-4"><div class="text-uppercase">Java &middot; Development &middot; Database</div></div>
                                 <div class="fs-3 fw-light text-muted">I can help your business to</div>
                                 <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">진취적인 개발자 정민욱 입니다.</span></h1>
                             </div>
+                            <a class="nav-link" href="projects.html">Projects</a>
                         </div>
                     </div>
                 </div>
             </header>
            
             <!-- Page Content-->
-            <div class="container px-5 my-5">
+            <div class="container px-5 my-5" id="resume">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
                 </div>
@@ -62,8 +79,8 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8">
-                                            <div><i class="bi bi-dot"></i>대학교 학사 시스템 개발</div>
-                                            <div><i class="bi bi-dot"></i>공공기관 시스템 개발</div>
+                                            <div><i class="bi bi-dot"></i>대학교 학사 시스템 개발 (Spring, Oracle, OZ Reporting)</div>
+                                            <div><i class="bi bi-dot"></i>공공기관 시스템 개발(Spring Boot, MyBatis, Oracle)</div>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +104,7 @@
                         </section>
                         <!-- Education Section-->
                         <section>
-                            <h2 class="text-secondary fw-bolder mb-4">Education</h2>
+                            <h2 class="text-secondary fw-bolder mb-4" id="Education">Education</h2>
                             <!-- Education Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
@@ -125,9 +142,9 @@
                             </div>
                         </section>
                         <!-- Divider-->
-                        <div class="pb-5"></div>
-                        <!-- Skills Section-->
-                        <section>
+                        <div class="pb-5" id="skills"></div>
+                        <!-- Skills Section-->                         
+                        <section >
                             <!-- Skillset Card-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
@@ -137,21 +154,37 @@
                                             <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
                                             <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Skills</span></h3>
                                         </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Jsp</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                        <div class="container">                                            
+                                            <div class="row">
+                                            <div class="col-md-4">
+                                                <h5>Backend</h5>
+                                                <div class="col mb-4 mb-md-0">
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Java</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Spring Boot</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Tomcat</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Svn</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Git</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h5>Database</h5>
+                                                <div class="col mb-4 mb-md-0">
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Oracle</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">MySQL</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">MSSQL</div>
+                                                </div>                                                
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h5>Frontend</h5>
+                                                <div class="col mb-4 mb-md-0">
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">JavaScript</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">jQuery</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">JSP</div>
+                                                </div>
+                                            </div>
+                                            </div>
                                         </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Jquery</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Spring Boot</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Tomcat</div></div>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Mysql</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Mssql</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Oracle</div></div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -160,14 +193,17 @@
                 </div>
             </div>
              <!-- About Section-->
-            <section class="bg-light py-5">
+            <section class="bg-light py-5" id="about">
                 <div class="container px-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
                                 <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
+                                <p class="text-muted">저는 문제 해결을 즐기고, 새로운 기술에 빠르게 적응하는 백엔드 개발자 정민욱입니다. <br>
+                                    최근에는 Spring & Oracle 기반의 대학 진단 시스템과 공공기관 리포트 프로젝트를 수행하며 <br>
+                                    안정성과 확장성을 고려한 시스템 개발 경험을 쌓았습니다. <br>
+                                    앞으로도 꾸준히 학습하며 더 나은 서비스를 만드는 개발자가 되고자 합니다.</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
                                     <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
