@@ -18,44 +18,43 @@
         <link href="css/styles.css" rel="stylesheet" />
         
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-            <div class="container px-5">
-                <a class="navbar-brand fw-bold text-gradient" href="index.html">정민욱</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+                <div class="container px-5">
+                    <a class="navbar-brand fw-bold text-gradient" href="index.html">정민욱</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                    </div>
                 </div>
-            </div>
             </nav>
             <!-- Header-->
             <header class="py-5">
-                <div class="container px-5 pb-5">
+                <div class="container px-5 pb-6">
                     <div class="row gx-5 align-items-center">
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4 my-4"><div class="text-uppercase">Java &middot; Development &middot; Database</div></div>
-                                <div class="fs-3 fw-light text-muted">I can help your business to</div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">진취적인 개발자 정민욱 입니다.</span></h1>
+                                <h1 class="fw-bolder mb-5"><span class="text-gradient d-inline">소통하며 개발하는<br/> 정민욱 입니다.</span></h1>
                             </div>
-                            <a class="nav-link" href="projects.html">Projects</a>
+                            <!-- <a class="nav-link" href="projects.html">Projects</a> -->
                         </div>
                     </div>
                 </div>
             </header>
            
             <!-- Page Content-->
-            <div class="container px-5 my-5" id="resume">
+            <div class="container px-5 my-lg-n5" id="resume">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
                 </div>
@@ -79,8 +78,52 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8">
-                                            <div><i class="bi bi-dot"></i>대학교 학사 시스템 개발 (Spring, Oracle, OZ Reporting)</div>
-                                            <div><i class="bi bi-dot"></i>공공기관 시스템 개발(Spring Boot, MyBatis, Oracle)</div>
+                                            <!-- <div><i class="bi bi-dot"></i>대학교 링크/라이즈 시스템 개발 (Spring, MySQL,Oracle, OZ Reporting)</div> -->
+                                            <!-- <div><i class="bi bi-dot"></i>공공기관 시스템 개발(Spring Boot, MyBatis, Oracle)</div> -->
+                                            <ul class="mt-2">
+                                                <li>
+                                                    남서울대학교 원습톱 매칭 시스템(2025.02 ~ 2025.06)                                                
+                                                    <br><small>Java, Spring, MSSQL</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-현장실습, 비교과프로그램 API 서비스 개발</small>
+                                                    <br><small>url:<a href="https://onestop.nsu.ac.kr/" target="_blank">onestop.nsu.ac.kr</a></small>
+                                                </li>
+                                                <li>
+                                                    경기대학교 회의비 사전결제 앱 (2025.01 ~ 2025.02)  
+                                                    <br><small>React Native, Java, Spring, Firebase</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-ios,aos 배포 및 파이어베이연동 FCM 구현</small>
+                                                    <br><small>url:<a href="https://play.google.com/store/apps/details?id=com.kyonggiapp&hl=ln&pli=1" target="_blank">경기대 회의비</a></small>
+                                                </li>                                                
+                                                <li>
+                                                    전략물자 무역안보원 홈닥터 시스템 고도화 (2024.10 ~ 2024.12)  
+                                                    <br><small>Java, Spring, Tibero</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-노후된 전략물자 홈닥터 시스템 개편 및 고도화 진행</small>
+                                                    <br><small>url:<a href="https://help.yestrade.go.kr/main.do" target="_blank">help.yestrade.go.kr</a></small>
+                                                </li>
+                                                <li>
+                                                    대구한의대학교 역량진단 시스템 (2023.08 ~ 2023.10)  
+                                                    <br><small>Java, Spring, Oracle</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-역량진단 설문 백엔드 구현 및 통계자료 구현</small>
+                                                    <br><small>url:<a href="#" >폐쇄형 사이트</a></small>
+                                                </li>
+                                                <li>
+                                                    부산대학교 현장실습 고도화 (2023.11 ~ 2024.02)  
+                                                    <br><small>Java, Spring, MariaDB</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-기존 현장실습 마이그레이션(Mssql -> MariaDB)및 고도화 서비스</small>
+                                                    <br><small>url:<a href="https://placement.pusan.ac.kr" target="_blank" >placement.pusan.ac.kr</a></small>
+                                                </li>
+                                                <li>
+                                                    명지대학교 현장실습 시스템 (2022.09 ~ 2022.11)  
+                                                    <br><small>Java, Spring, MariaDB</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-현장실습 서비스 백엔드 개발</small>
+                                                    <br><small>url:<a href="https://intern.mju.ac.kr" target="_blank" >intern.mju.ac.kr</a></small>
+                                                </li>
+                                                <li>
+                                                    무역협회 해상/항공 운임 고도화 (2022.07 ~ 2022.09)  
+                                                    <br><small>Java, Spring, Oracle, 전자정부</small>
+                                                    <br><small class="bg-gradient-primary-to-secondary px-2 rounded text-white">-해상/항공 운임 월별 엑셀 업로드 및 통계자료 구축</small>
+                                                    <br><small>url:<a class="link-underline-success" href="https://kita.net/shippers/logisticsFare/logisticsSeaFare.do" target="_blank" >kita.net</a></small>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +140,7 @@
                                                 <div class="small text-muted">강원도 철원</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>병장 만기제대 후 육군 부사관 지원</div></div>
+                                        <div class="col-lg-8"><div>병력관리 및 수송 교육</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +162,7 @@
                                                
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div class="col-lg-8"><div>인문적 지식과 인적,마케팅,의사결정 등의 학문적 지식을 위해 선택하였습니다.</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +179,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div class="col-lg-8"><div>Java를 이용하여 디지털 컨버전스 기술 개발에 응용 가능한 다양한 프로그래밍 기법을 공부하고, 이를 이용하여 다양한 예제들을 구현·개발함으로 써 실제 실무에서 사용될 기술 역량을 높이는 수업 과정.</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -157,29 +200,32 @@
                                         <div class="container">                                            
                                             <div class="row">
                                             <div class="col-md-4">
-                                                <h5>Backend</h5>
+                                                <h5>Languages & Fameworks</h5>
                                                 <div class="col mb-4 mb-md-0">
                                                     <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Java</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">JavaScript</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">HTML/CSS</div>
                                                     <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Spring Boot</div>
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Tomcat</div>
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Svn</div>
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Git</div>
+                                                    
+                                                    
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <h5>Database</h5>
+                                                <h5>Infrastructure & Databases</h5>
                                                 <div class="col mb-4 mb-md-0">
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Apache</div>
                                                     <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Oracle</div>
                                                     <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">MySQL</div>
                                                     <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">MSSQL</div>
                                                 </div>                                                
                                             </div>
                                             <div class="col-md-4">
-                                                <h5>Frontend</h5>
+                                                <h5>Tools &<br/> IDE</h5>
                                                 <div class="col mb-4 mb-md-0">
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">JavaScript</div>
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">jQuery</div>
-                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">JSP</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Eclipse</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">VS Code</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Svn</div>
+                                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 m-1">Git</div>
                                                 </div>
                                             </div>
                                             </div>
@@ -199,15 +245,15 @@
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">저는 문제 해결을 즐기고, 새로운 기술에 빠르게 적응하는 백엔드 개발자 정민욱입니다. <br>
-                                    최근에는 Spring & Oracle 기반의 대학 진단 시스템과 공공기관 리포트 프로젝트를 수행하며 <br>
-                                    안정성과 확장성을 고려한 시스템 개발 경험을 쌓았습니다. <br>
-                                    앞으로도 꾸준히 학습하며 더 나은 서비스를 만드는 개발자가 되고자 합니다.</p>
+                                <!-- <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p> -->
+                                <!-- <p class="text-muted">저는 문제 해결을 즐기고, 새로운 기술에 빠르게 적응하는 백엔드 개발자 정민욱입니다. <br> -->
+                                    <!-- 최근에는 Spring & Oracle 기반의 대학 진단 시스템과 공공기관 리포트 프로젝트를 수행하며 <br> -->
+                                    <!-- 안정성과 확장성을 고려한 시스템 개발 경험을 쌓았습니다. <br> -->
+                                    <!-- 앞으로도 꾸준히 학습하며 더 나은 서비스를 만드는 개발자가 되고자 합니다.</p> -->
                                 <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                                    <!-- <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a> -->
+                                    <a class="text-gradient" href="https://www.linkedin.com/in/%EB%AF%BC%EC%9A%B1-%EC%A0%95-5733462ab/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="https://github.com/uk-longdo" target="_blank"><i class="bi bi-github"></i></a>                                    
                                 </div>
                             </div>
                         </div>
